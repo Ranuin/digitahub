@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css/index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <img src="image/logo.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+      </div>
+      <div class="icon">
+        <!-- Your icon for mobile navigation here -->
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#Case a study">Case Studies</a></li>
+        <li><a href="#section">Services</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+
+        <a href="form.html" class="cylindrical-button">Hover Me</a>
+      </ul>
+      <i class="fa-solid fa-bars-staggered"></i>
+    </div>
+  </nav>
+
+
+
+  <section>
+    <h1 class="leading-60">Blog</h1>
+    <p class="leading-20">Best-in-class design and development team</p>
+  </section>
+
+
+
+
+
+
+
+  <div class="container">
+    <div class="box">
+      <div class="image-container">
+        <img src="image/blog-1.jpeg" alt="Image">
+        <div class="overlay">
+          <h3></h3>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="image/blog-2.jpeg" alt="Image">
+        <div class="overlay">
+          <h3></h3>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="image/blog-3.jpeg" alt="Image">
+        <div class="overlay">
+          <h3>Title</h3>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="image/blog-4.jpeg" alt="Image">
+        <div class="overlay">
+          <h3>Title</h3>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="image/blog-5.jpeg" alt="Image">
+        <div class="overlay">
+          <h3>Title</h3>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="image/blog-6.jpeg" alt="Image">
+        <div class="overlay">
+          <h3>Title</h3>
+          <p>Description</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <button class="hover-button">Hover Me</button>
+  </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+
+
+
+
+
+
+
+
+  <style>
+    .leading-20 {
+      text-align: center;
+      color: black;
+    }
+
+    .leading-60 {
+      text-align: center;
+      font-size: 10vw;
+      color: #bfc2c5;
+      text-shadow: 4px 4px #00ffe5;
+    }
+
+    .leading-20 {
+      color: rgb(51, 49, 49);
+      text-align: center;
+    }
+
+    /* Media query for mobile devices */
+    @media only screen and (max-width: 600px) {
+      .leading-60 {
+        font-size: 5vw;
+        /* Adjust font size for smaller screens */
+      }
+    }
+
+
+
+
+    .dot {
+      width: 5px;
+      height: 5px;
+      background-color: #3498db;
+      border-radius: 50%;
+      position: absolute;
+      animation: moveUpDown 2s infinite alternate, moveRightLeft 2s infinite alternate;
+    }
+
+    @keyframes moveUpDown {
+      0% {
+        top: 0;
+      }
+
+      100% {
+        top: 180px;
+      }
+    }
+
+    @keyframes moveRightLeft {
+      0% {
+        left: 0;
+      }
+
+      100% {
+        left: 180px;
+      }
+
+    }
+
+    @keyframes moveLeftRight {
+      0% {
+        left: 0;
+      }
+
+      100% {
+        left: 180px;
+      }
+
+    }
+
+    /* Resetting default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .box {
+      height: 100px;
+      margin: 10px;
+      background-color: rgb(238, 243, 244);
+      border: 1px solid rgb(247, 247, 247);
+    }
+
+    /* Media query for mobile */
+    @media only screen and (min-width: 0px) and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+    }
+
+    .body {
+      overflow-x: hidden;
+    }
+
+    /* Media query for desktop */
+    @media only screen and (min-width: 769px) {
+      .container {
+        flex-direction: row;
+      }
+    }
+
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Adjust the opacity as needed */
+      color: white;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-container:hover .overlay {
+      opacity: 1;
+    }
+
+    .overlay h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .overlay p {
+      font-size: 16px;
+      text-align: center;
+      max-width: 80%;
+    }
+    @media (min-width: 768px) {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .item {
+      width: 50%;
+      margin-bottom: 0;
+    }
+  }
+  /* Laptop and larger screens */
+  @media (min-width: 992px) {
+    .item {
+      width: 33.333%;
+    }
+  }
+  /* Desktop and larger screens */
+  @media (min-width: 1200px) {
+    .item {
+      width: 25%;
+    }
+  }
+
+
+ 
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hover-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hover-button:hover {
+  background-color: #f1f1f1;
+  color: #000000;
+}
+
+  </style>
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="mt-5">
+    <div class="container-item">
+      <div class="row-item">
+        <div class="footer-col hover-effect">
+          <img src="image/logo.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
+          <p>We're Hub agency. <br>We're passionate about solving problems <br>through creative and digital products.
+          </p>
+        </div>
+        <div class="footer-col hover-effect">
+          <h4>ABOUT US</h4>
+          <ul>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press media</a></li>
+            <li><a href="blog.html">Our Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col hover-effect">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col hover-effect">
+          <h4>CASES</h4>
+          <ul>
+            <li><a href="#">Management</a></li>
+            <li><a href="#">Reporting</a></li>
+            <li><a href="#">Tracking</a></li>
+            <li><a href="#">Subscribe</a></li>
+          </ul>
+        </div>
+        <div class="footer-col hover-effect">
+          <div class="social-link">
+            <a href="#"><i class="fab fa-facebook" style="color: #74C0FC;"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color: #da2916;"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="index.js/index.js"></script>
+
+</body>
+
+</html>
